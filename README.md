@@ -69,8 +69,8 @@ This mapper solves these issues by automatically converting LDAP email attribute
 
 ```mermaid
 graph LR
-    A[LDAP Directory: John.Doe<at>Example.com] --> B[Lowercase Email Mapper]
-    B --> C[Keycloak User Stor: john.doe<at>example.com]
+    A[LDAP Directory: John.Doe&#64;Example.com] --> B[Lowercase Email Mapper]
+    B --> C[Keycloak User Stor: john.doe&#64;example.com]
     C --> D[Consistent Email Handling]
 ```
 
