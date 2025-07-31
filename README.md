@@ -1,7 +1,7 @@
 # Keycloak LDAP Lowercase Email Mapper
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Java](https://img.shields.io/badge/Java-21+-orange)](https://www.oracle.com/java/)
+[![Java](https://img.shields.io/badge/Java-17+-orange)](https://www.oracle.com/java/)
 [![Keycloak](https://img.shields.io/badge/Keycloak-26.x-red)](https://www.keycloak.org/)
 
 A Keycloak LDAP Storage Mapper SPI that automatically converts email addresses from LDAP to lowercase during user import, ensuring consistent email handling and preventing unnecessary profile update prompts.
@@ -28,7 +28,7 @@ This mapper solves these issues by automatically converting LDAP email attribute
 
 ### Prerequisites
 
-- Java 21 or higher
+- Java 17 or higher
 - Maven 3.6+
 - Keycloak 26.x
 
@@ -139,7 +139,7 @@ To test the mapper:
 ## Requirements
 
 - **Keycloak**: 26.0.0 or later
-- **Java**: 21 or higher
+- **Java**: 17 or higher
 - **Maven**: 3.6.0 or higher
 
 ## License
